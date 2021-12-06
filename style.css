@@ -1,0 +1,217 @@
+/* @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");*/
+
+/* .custom-accordion-wrapper .dropdown-btn:after{
+   content:"\25bc";
+   float: right;
+   color:#c7c7c7;
+ }*/
+
+ #filter-dropDown{
+   width: 87%;
+ margin: 12px;
+}
+
+#tmpDateDropdown1{
+display: flex;
+justify-content: space-evenly;
+}
+.custom-accordion-wrapper {
+float: left;
+ margin-left: 20px;
+ margin-top: 20px;
+ width: 84%;
+
+}
+.custom-accordion-wrapper .w-100{
+width: 100%;
+}
+
+.custom-accordion-wrapper .dropdown-btn{
+font-size: 1.1em;
+width: 100%;
+border-radius: 5px!important;
+
+}
+
+/* .custom-accordion-wrapper .panel-heading > a:before , .panel-heading .arrow:before{
+float: left !important;
+font-family: FontAwesome;
+content:"\f068";
+padding-right: 5px;
+}
+.custom-accordion-wrapper .panel-heading > a.collapsed:before, .custom-accordion-wrapper .panel-heading .arrow.collapsed:before {
+float: left !important;
+content:"\f067";
+} */
+.custom-accordion-wrapper .panel-heading > a:hover,
+.custom-accordion-wrapper .panel-heading > a:active,
+.custom-accordion-wrapper .panel-heading > a:focus  {
+text-decoration:none;
+}
+
+.custom-accordion-wrapper .wrapper{
+margin-bottom: 0em;
+}
+.custom-accordion-wrapper .header-panel{
+display: flex;
+justify-content: space-between;
+}
+.custom-accordion-wrapper .select-wrapper{
+margin-bottom: 0.8em;
+display: flex;
+justify-content: center;
+padding-right: 12px;
+}
+
+.custom-accordion-wrapper .select-wrapper button{
+ padding: 4px;
+border: 1px solid #e6e6e6;
+border-radius: 0;
+background-color: #fff;
+width: 100px;
+font-size: 0.8em;
+}
+
+.custom-accordion-wrapper .select-wrapper button:focus{
+outline:none;
+}
+.custom-accordion-wrapper .select-wrapper button:hover{
+background-color: #e6e6e6;
+}
+
+.custom-accordion-wrapper .template{
+border: none;
+overflow-y: scroll;
+ max-height: 125px;
+}
+
+.custom-accordion-wrapper .parent-group-accordion{
+overflow-y: scroll;
+max-height: 120px;
+}
+.custom-accordion-wrapper .children:before,  .custom-accordion-wrapper .children-two:before{
+float: left !important;
+font-family: FontAwesome;
+content:"\f068";
+padding-right: 5px;
+}
+.custom-accordion-wrapper .children.collapsed:before,  .custom-accordion-wrapper .children-two.collapsed:before{
+float: left !important;
+content:"\f067";
+}
+
+.custom-accordion-wrapper .dropdown-menu{
+width: 100%;
+padding:12px 0 12px 12px;
+max-height: 225px;
+border-radius: 5px;
+}
+.custom-accordion-wrapper .dropdown-toggle:hover{
+background-color: #e6e6e6;
+}
+.custom-accordion-wrapper .panel-heading:hover{
+background-color: #e6e6e6;
+}
+
+.custom-accordion-wrapper .search-box, .dropdown-search{
+margin-bottom: 1em;
+width: 93%;
+}
+.custom-accordion-wrapper .dynamic-select {
+padding: 10px;
+display: inline-block;
+margin-right: 10px;
+background-color: crimson;
+
+}
+.custom-accordion-wrapper .delete-span:hover{
+cursor: pointer;
+}
+
+
+.custom-accordion-wrapper .pl-3{
+padding-left: 20px;
+}
+.custom-accordion-wrapper .pl-1{
+padding-left: 10px;
+}
+
+.custom-accordion-wrapper .py-2{
+padding-bottom: 20px;
+}
+.custom-accordion-wrapper .mt-2{
+margin-top: 2em;
+}
+.custom-accordion-wrapper .task{
+margin-left: 0.5em;
+border: none!important;
+margin-bottom: 6px;
+margin-top: 6px;
+padding: 5px;
+}
+
+.custom-accordion-wrapper .task:hover{
+cursor: pointer;
+}
+.custom-accordion-wrapper .border-none{
+border: none !important;
+}
+
+
+.custom-accordion-wrapper .fa{
+margin-right: 0.5em;
+font-weight: 700;
+}
+
+.custom-accordion-wrapper .fa span{
+padding-left: 10px;
+}
+
+.custom-accordion-wrapper .tickItem:after
+{content:'\2713';
+display:inline-block;
+color:#87bac3;
+padding: 0 0 0px 6px;
+font-weight: 700;
+}
+
+.custom-accordion-wrapper .tickItem{
+background-color: #e6e6e6;
+
+}
+
+.custom-accordion-wrapper .parent-group-accordion::-webkit-scrollbar, .dropdown-data-wrapper::-webkit-scrollbar{
+width: 10px;
+background-color: #e6e6e6;
+border-radius: 8px;
+}
+.custom-accordion-wrapper .parent-group-accordion::-webkit-scrollbar-thumb,.dropdown-data-wrapper::-webkit-scrollbar-thumb {
+border-radius: 8px;
+background-color: #c7c7c7;
+}
+
+#filtersfirstDiv{
+min-height: 20em;
+color:#007CA5;
+}
+.custom-accordion-wrapper .dropdown-data-wrapper {
+padding-left: 15px;
+}
+
+.custom-accordion-wrapper .dropdown-data-wrapper li{
+list-style-type: none;
+margin-bottom: 10px;
+width: 80%;
+}
+
+.custom-accordion-wrapper .dropdown-data-wrapper {
+overflow-y: scroll;
+max-height: 122px;
+}
+
+.dropdown-menu{
+  display: none;
+}
+.is-active .dropdown-menu{
+  display: block;
+}
